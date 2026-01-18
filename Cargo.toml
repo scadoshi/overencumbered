@@ -1,0 +1,15 @@
+[package]
+name = "overencumbered"
+version = "0.1.0"
+edition = "2024"
+
+[profile.release]
+debug = true
+
+[lib]
+name = "loot"
+path = "src/lib/lib.rs"
+
+[[bin]]
+name = "loot"
+path = "src/bin/main.rs"
